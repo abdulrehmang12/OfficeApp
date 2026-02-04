@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HayzelOfficeApp"
+        tools:targetApi="31">
+
+        <!-- 🔔 FIREBASE NOTIFICATION SERVICE -->
+        <service
+            android:name=".services.FirebaseNotificationService"
+            android:exported="false"
+            android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <!-- 🚀 SPLASH (ONLY LAUNCHER) -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.HayzelOfficeApp.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 🔐 LOGIN -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HayzelOfficeApp.WithActionBar" />
+
+        <!-- 🏠 DASHBOARD -->
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.HayzelOfficeApp" />
+
+        <!-- 📢 ANNOUNCEMENTS -->
+        <activity
+            android:name=".AnnouncementsActivity"
+            android:exported="false"
+            android:parentActivityName=".DashboardActivity" />
+
+        <!-- ✅ THIS WAS MISSING (CRASH FIX) -->
+        <activity
+            android:name=".AnnouncementDetailActivity"
+            android:exported="false"
+            android:parentActivityName=".AnnouncementsActivity" />
+
+        <!-- 👥 EMPLOYEES -->
+        <activity
+            android:name=".EmployeeListActivity"
+            android:exported="false"
+            android:parentActivityName=".DashboardActivity" />
+
+        <activity
+            android:name=".EmployeeDetailActivity"
+            android:exported="false"
+            android:parentActivityName=".EmployeeListActivity" />
+
+        <!-- 🌳 HIERARCHY -->
+        <activity
+            android:name=".HierarchyActivity"
+            android:exported="false"
+            android:parentActivityName=".DashboardActivity" />
+
+        <!-- 👤 PROFILE -->
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false"
+            android:parentActivityName=".DashboardActivity" />
+
+        <!-- 🔔 NOTIFICATION SETTINGS -->
+        <activity
+            android:name=".NotificationSettingsActivity"
+            android:exported="false"
+            android:parentActivityName=".DashboardActivity" />
+
+        <!-- Update the PostAnnouncementActivity entry -->
+        <activity
+            android:name=".PostAnnouncementActivity"
+            android:exported="false"
+            android:parentActivityName=".AnnouncementsActivity"
+            android:theme="@style/Theme.HayzelOfficeApp" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hayzel Office</string>
+    <string name="employee_directory">Employee Directory</string>
+    <string name="search_employees">Search employees...</string>
+    <string name="employees_count">%d employees</string>
+    <string name="no_employees">No employees found</string>
+</resources>

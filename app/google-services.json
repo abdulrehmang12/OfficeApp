@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "900352618572",
+    "project_id": "hayzelofficeapp",
+    "storage_bucket": "hayzelofficeapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900352618572:android:26ac40139d92a56e4d84e9",
+        "android_client_info": {
+          "package_name": "com.example.hayzelofficeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCztcMNhpVFTLCQIY_1PhZe4nwmOmHhris"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

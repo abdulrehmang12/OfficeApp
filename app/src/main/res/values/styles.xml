@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ========== LOGIN SPECIFIC STYLES ========== -->
+
+    <!-- Modern Tab Text Style -->
+    <style name="TabTextAppearance" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:textColor">@color/login_text_primary_dark</item>
+    </style>
+
+    <!-- Dark Blue Theme TextInputLayout - COMPATIBLE VERSION -->
+    <style name="TextInputLayout.Hayzel.Modern.Dark" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@android:color/transparent</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxStrokeColor">#2A3D52</item>
+        <item name="boxStrokeWidth">1.5dp</item>
+        <!-- REMOVED boxStrokeWidthFocused - causes issues in some versions -->
+        <!-- REMOVED boxStrokeColorFocused - causes issues in some versions -->
+        <item name="hintTextColor">@color/login_text_hint_dark</item>
+        <item name="android:textColorHint">@color/login_text_hint_dark</item>
+        <item name="errorTextColor">@color/error</item>
+        <item name="errorTextAppearance">@style/ErrorTextAppearance</item>
+        <item name="startIconTint">@color/login_icon_primary</item>
+        <item name="endIconTint">@color/login_icon_secondary</item>
+        <item name="counterTextColor">@color/login_text_secondary_dark</item>
+        <item name="helperTextTextColor">@color/login_text_secondary_dark</item>
+        <item name="placeholderTextColor">@color/login_text_hint_dark</item>
+        <item name="prefixTextColor">@color/login_text_primary_dark</item>
+        <item name="suffixTextColor">@color/login_text_primary_dark</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">4dp</item>
+    </style>
+
+    <!-- Error Text Appearance -->
+    <style name="ErrorTextAppearance" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/error</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <!-- Professional Gradient Button Style -->
+    <style name="Button.Hayzel.Gradient" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:paddingVertical">18dp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="elevation">4dp</item>
+        <item name="android:stateListAnimator">@anim/button_elevation</item>
+        <item name="rippleColor">#40FFFFFF</item>
+        <item name="android:background">@drawable/btn_selector_gradient</item>
+    </style>
+
+    <!-- Professional Login Button -->
+    <style name="Button.Hayzel.Login.Dark" parent="Button.Hayzel.Gradient">
+        <item name="android:text">SIGN IN</item>
+        <item name="iconGravity">textEnd</item>
+        <item name="iconPadding">8dp</item>
+        <item name="iconSize">20dp</item>
+    </style>
+
+    <!-- Professional Register Button -->
+    <style name="Button.Hayzel.Register.Dark" parent="Button.Hayzel.Gradient">
+        <item name="android:text">CREATE ACCOUNT</item>
+        <item name="iconGravity">textEnd</item>
+        <item name="iconPadding">8dp</item>
+        <item name="iconSize">20dp</item>
+    </style>
+
+    <!-- FIXED: Professional Checkbox Style - COMPATIBLE VERSION -->
+    <style name="CheckBox.Hayzel.Dark" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:textColor">@color/login_text_secondary_dark</item>
+        <item name="android:textSize">14sp</item>
+        <item name="buttonTint">@color/login_accent_primary</item>
+        <item name="android:paddingVertical">4dp</item>
+    </style>
+
+    <!-- Professional Card Style -->
+    <style name="CardView.Hayzel.Professional" parent="CardView">
+        <item name="cardBackgroundColor">#1A2332</item>
+        <item name="cardCornerRadius">24dp</item>
+        <item name="cardElevation">8dp</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="strokeColor">#2A3D52</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <!-- Professional Headline Style -->
+    <style name="TextAppearance.Hayzel.Headline.Dark" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/login_text_primary_dark</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+    </style>
+
+    <!-- Professional Subtitle Style -->
+    <style name="TextAppearance.Hayzel.Subtitle.Dark" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/login_text_secondary_dark</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:alpha">0.9</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <!-- Professional Footer Style -->
+    <style name="TextAppearance.Hayzel.Footer.Dark" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/login_text_secondary_dark</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:alpha">0.7</item>
+        <item name="android:letterSpacing">0.03</item>
+    </style>
+
+    <!-- Professional Link Style -->
+    <style name="TextAppearance.Hayzel.Link.Dark" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textColor">@color/login_accent_secondary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <!-- ========== EXISTING STYLES (KEEP THESE) ========== -->
+
+    <!-- Card Styles -->
+    <style name="CardView.Hayzel" parent="CardView">
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardPreventCornerOverlap">false</item>
+    </style>
+
+    <style name="CardView.Hayzel.Dark" parent="CardView.Hayzel">
+        <item name="cardBackgroundColor">@color/dark_surface_variant</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="Button.Hayzel" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/hayzel_primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:paddingVertical">12dp</item>
+        <item name="android:paddingHorizontal">24dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="rippleColor">@color/white</item>
+    </style>
+
+    <style name="Button.Hayzel.Dark" parent="Button.Hayzel">
+        <item name="backgroundTint">@color/hayzel_primary_light</item>
+        <item name="android:textColor">@color/bg_dark</item>
+    </style>
+
+    <!-- FIXED: TextInputLayout Styles - REMOVE boxStrokeWidthFocused -->
+    <style name="TextInputLayout.Hayzel" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/hayzel_primary</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <!-- REMOVED boxStrokeWidthFocused -->
+        <item name="hintTextColor">@color/hayzel_primary</item>
+        <item name="android:textColorHint">@color/light_on_surface_variant</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="errorTextColor">@color/error</item>
+    </style>
+
+    <style name="TextInputLayout.Hayzel.Dark" parent="TextInputLayout.Hayzel">
+        <item name="boxStrokeColor">@color/hayzel_primary_light</item>
+        <item name="hintTextColor">@color/hayzel_primary_light</item>
+        <item name="android:textColorHint">@color/dark_on_surface_variant</item>
+    </style>
+
+    <!-- Chip Styles -->
+    <style name="Chip.Hayzel" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="chipBackgroundColor">@color/light_surface_variant</item>
+        <item name="chipStrokeColor">@color/light_outline_variant</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="android:textColor">@color/light_on_surface</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="rippleColor">@color/hayzel_primary</item>
+    </style>
+
+    <style name="Chip.Hayzel.Dark" parent="Chip.Hayzel">
+        <item name="chipBackgroundColor">@color/dark_surface_variant</item>
+        <item name="chipStrokeColor">@color/dark_outline_variant</item>
+        <item name="android:textColor">@color/dark_on_surface</item>
+    </style>
+
+    <!-- Shape Appearances -->
+    <style name="ShapeAppearance.Hayzel.Small" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+
+    <style name="ShapeAppearance.Hayzel.Medium" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="ShapeAppearance.Hayzel.Large" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <!-- Old Login Styles - FIXED VERSION -->
+    <style name="TextInputLayout.Hayzel.Modern" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxBackgroundColor">@color/input_background_modern</item>
+        <item name="boxBackgroundMode">filled</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxStrokeColor">@color/white</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <!-- REMOVED boxStrokeWidthFocused -->
+        <item name="hintTextColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="errorTextColor">@color/error</item>
+    </style>
+
+    <style name="Button.Hayzel.Login" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">14dp</item>
+        <item name="android:paddingVertical">16dp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="rippleColor">@color/ripple_dark</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="elevation">8dp</item>
+        <item name="android:stateListAnimator">@anim/button_elevation</item>
+    </style>
+
+    <style name="Button.Hayzel.Register" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">14dp</item>
+        <item name="android:paddingVertical">16dp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="rippleColor">@color/ripple_light</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="elevation">8dp</item>
+        <item name="android:stateListAnimator">@anim/button_elevation</item>
+    </style>
+
+    <!-- ========== MODERN UI STYLES ========== -->
+
+    <!-- Modern TextInputLayout Style -->
+    <style name="TextInputLayout.Modern" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/input_background</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxStrokeColor">@color/input_border</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="hintTextColor">@color/input_hint</item>
+        <item name="android:textColorHint">@color/input_hint</item>
+        <item name="errorTextColor">@color/error_red</item>
+        <item name="startIconTint">@color/icon_primary</item>
+        <item name="endIconTint">@color/icon_primary</item>
+        <item name="counterTextColor">@color/text_secondary</item>
+        <item name="helperTextTextColor">@color/text_secondary</item>
+    </style>
+
+    <!-- Modern Button Style -->
+    <style name="Button.Modern.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="android:minHeight">58dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="elevation">8dp</item>
+        <item name="rippleColor">#40FFFFFF</item>
+        <item name="iconGravity">textEnd</item>
+        <item name="iconPadding">12dp</item>
+        <item name="iconSize">22dp</item>
+    </style>
+
+    <!-- Modern Card Style -->
+    <style name="CardView.Modern" parent="CardView">
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="cardCornerRadius">28dp</item>
+        <item name="cardElevation">16dp</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="strokeColor">@color/card_border</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <!-- Modern Tab Text -->
+    <style name="TabTextAppearance.Modern" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+    <!-- Error Background -->
+    <style name="ErrorBackground" parent="">
+        <item name="android:background">@drawable/error_background</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <!-- Modern Text Styles -->
+    <style name="TextAppearance.Modern.Title" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="TextAppearance.Modern.Subtitle" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:alpha">0.8</item>
+    </style>
+
+    <style name="TextAppearance.Modern.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Modern Checkbox -->
+    <style name="CheckBox.Modern" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="buttonTint">@color/accent_teal</item>
+    </style>
+
+</resources>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ========== HAYZEL OFFICE APP - COMPLETE COLOR DEFINITIONS ========== -->
+
+    <!-- ========== BASIC & BACKGROUND COLORS ========== -->
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Background Colors -->
+    <color name="bg_white">#FFFFFF</color>
+    <color name="bg_light">#F5F5F5</color>
+    <color name="bg_dark">#121212</color>
+
+    <!-- Dark Mode Backgrounds -->
+    <color name="login_dark_bg_primary">#0A1929</color>
+    <color name="login_dark_bg_surface">#112240</color>
+    <color name="login_dark_card">#1A2C42</color>
+    <color name="login_dark_card_elevated">#233852</color>
+    <color name="login_dark_input">#2D3E5C</color>
+
+    <!-- ========== TEXT COLORS ========== -->
+    <!-- Light Theme Text -->
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Dark Theme Text -->
+    <color name="dark_text_primary">#E6E1E5</color>
+    <color name="dark_text_secondary">#CAC4D0</color>
+    <color name="dark_text_hint">#938F99</color>
+
+    <!-- Login Specific Text -->
+    <color name="login_text_primary_dark">#E3F2FD</color>
+    <color name="login_text_secondary_dark">#90CAF9</color>
+    <color name="login_text_hint_dark">#64B5F6</color>
+    <color name="login_text_disabled_dark">#42A5F5</color>
+
+    <!-- ========== BRAND & PRIMARY COLORS ========== -->
+    <!-- Primary Colors -->
+    <color name="primary_light">#4A90E2</color>
+    <color name="primary_dark">#1A3D99</color>
+    <color name="accent">#FF6B35</color>
+
+    <!-- Hayzel Brand Colors -->
+    <color name="hayzel_primary">#2D5BFF</color>
+    <color name="hayzel_primary_light">#4A90E2</color>
+    <color name="hayzel_primary_dark">#1A3D99</color>
+    <color name="hayzel_accent">#FF6B35</color>
+    <color name="hayzel_gradient_start">#667eea</color>
+    <color name="hayzel_gradient_end">#764ba2</color>
+
+    <!-- Modern Accent Colors -->
+    <color name="accent_teal">#00E5FF</color>
+    <color name="accent_cyan">#18FFFF</color>
+    <color name="accent_light_teal">#64FFDA</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary_purple">#7C4DFF</color>
+    <color name="secondary_pink">#FF4081</color>
+
+    <!-- ========== CARD & SURFACE COLORS ========== -->
+    <!-- Dashboard & Cards -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="dashboard_text">#212121</color>
+    <color name="dashboard_text_secondary">#757575</color>
+
+    <!-- Modern Cards -->
+    <color name="card_background_modern">#1A2332</color>
+    <color name="card_border">#2A3D52</color>
+    <color name="card_shadow">#40000000</color>
+
+    <!-- Glass Morphism -->
+    <color name="card_background_glass_dark">#CC1A1A1A</color>
+
+    <!-- Surface Colors -->
+    <color name="light_surface">#FFFFFF</color>
+    <color name="light_surface_variant">#F5F5F7</color>
+    <color name="light_on_surface">#1D1B20</color>
+    <color name="light_on_surface_variant">#49454F</color>
+    <color name="light_outline">#79747E</color>
+    <color name="light_outline_variant">#CAC4D0</color>
+
+    <color name="dark_surface">#1D1B20</color>
+    <color name="dark_surface_variant">#2D2A32</color>
+    <color name="dark_on_surface">#E6E1E5</color>
+    <color name="dark_on_surface_variant">#CAC4D0</color>
+    <color name="dark_outline">#938F99</color>
+    <color name="dark_outline_variant">#49454F</color>
+
+    <!-- ========== BUTTON COLORS ========== -->
+    <!-- Login Button Colors -->
+    <color name="login_button">#2196F3</color>
+    <color name="login_button_pressed">#1976D2</color>
+    <color name="login_button_primary">#2979FF</color>
+    <color name="login_button_primary_dark">#1C6BEB</color>
+    <color name="login_button_secondary">#00B0FF</color>
+    <color name="login_button_success">#00C853</color>
+
+    <!-- Modern Button Gradients -->
+    <color name="button_primary_start">#00E5FF</color>
+    <color name="button_primary_end">#2979FF</color>
+    <color name="button_secondary">#7C4DFF</color>
+    <color name="button_success">#00C853</color>
+
+    <color name="button_gradient_start">#2979FF</color>
+    <color name="button_gradient_end">#00B0FF</color>
+    <color name="button_gradient_middle">#40C4FF</color>
+
+    <!-- ========== INPUT FIELD COLORS ========== -->
+
+    <color name="input_border">#E0E0E0</color>
+    <color name="login_hint">#9E9E9E</color>
+
+    <!-- Modern Input Fields -->
+    <color name="input_background_modern">#0A000000</color>
+    <color name="input_background_modern_dark">#1AFFFFFF</color>
+    <color name="input_background_focused">#1A40C4FF</color>
+
+    <color name="input_text">#E3F2FD</color>
+    <color name="input_hint">#64B5F6</color>
+    <color name="input_border_focused">#40C4FF</color>
+
+    <!-- ========== ACCENT & STATUS COLORS ========== -->
+    <color name="accent_green">#4CAF50</color>
+    <color name="accent_yellow">#FFDE21</color>
+    <color name="accent_red">#F44336</color>
+    <color name="accent_orange">#FF9800</color>
+
+    <!-- Status Colors -->
+    <color name="status_online">#4CAF50</color>
+    <color name="status_offline">#F44336</color>
+    <color name="status_away">#FF9800</color>
+    <color name="status_busy">#9C27B0</color>
+
+    <color name="status_active">#4CAF50</color>
+    <color name="status_inactive">#FF9800</color>
+    <color name="status_pending">#2196F3</color>
+    <color name="status_error">#F44336</color>
+
+    <!-- ========== ICON COLORS ========== -->
+    <color name="iconTint">#2196F3</color>
+    <color name="logout_tint">#F44336</color>
+    <color name="icon_title">#2D5BFF</color>
+    <color name="icon_message">#2D5BFF</color>
+    <color name="shimmer_placeholder">#E0E0E0</color>
+
+    <!-- Modern Icon Colors -->
+    <color name="icon_primary">#00E5FF</color>
+    <color name="icon_secondary">#7C4DFF</color>
+    <color name="icon_tertiary">#FF4081</color>
+
+    <!-- Login Icon Colors -->
+    <color name="login_icon_primary">#40C4FF</color>
+    <color name="login_icon_secondary">#00B0FF</color>
+    <color name="login_icon_accent">#2979FF</color>
+    <color name="login_logo_tint">#FFFFFF</color>
+
+    <!-- ========== GRADIENT COLORS ========== -->
+    <color name="bgGradientStart">#4A90E2</color>
+    <color name="bgGradientEnd">#50E3C2</color>
+
+    <!-- Modern Gradients -->
+    <color name="gradient_start">#0A1929</color>
+    <color name="gradient_middle">#1A2C42</color>
+    <color name="gradient_end">#233852</color>
+
+    <!-- Login Gradients -->
+    <color name="login_bg_start">#6A11CB</color>
+    <color name="login_bg_end">#2575FC</color>
+    <color name="login_gradient_start">#0A1929</color>
+    <color name="login_gradient_middle">#112240</color>
+    <color name="login_gradient_end">#1A2C42</color>
+
+    <!-- Glass Effect Gradients -->
+    <color name="gradient_start_glass">#667EEA</color>
+    <color name="gradient_middle_glass">#764BA2</color>
+    <color name="gradient_end_glass">#6B8DD6</color>
+
+    <!-- ========== ELEVATION & SHADOW ========== -->
+    <color name="light_elevation_overlay">#1F000000</color>
+    <color name="dark_elevation_overlay">#33FFFFFF</color>
+
+    <color name="shadow_light">#20000000</color>
+    <color name="shadow_dark">#40000000</color>
+
+    <!-- ========== ERROR & SUCCESS ========== -->
+    <color name="error">#FF5449</color>
+    <color name="error_container">#FFDAD6</color>
+    <item format="color" type="color" name="on_error">#FFFFFF</item>
+    <color name="on_error_container">#410E0B</color>
+    <color name="success">#00C853</color>
+
+    <!-- Modern Error Colors -->
+    <color name="error_red">#FF5252</color>
+    <color name="warning_orange">#FF9800</color>
+    <color name="info_blue">#2196F3</color>
+    <color name="success_green">#4CAF50</color>
+
+    <!-- Success & Warning Lights -->
+    <color name="success_green_light">#A5D6A7</color>
+    <color name="warning_orange_light">#FFE0B2</color>
+    <color name="info_blue_light">#BBDEFB</color>
+
+    <!-- ========== MISC & ADDITIONAL COLORS ========== -->
+    <!-- Tertiary Colors -->
+    <color name="tertiary">#7D5260</color>
+    <color name="tertiary_container">#FFD8E4</color>
+
+    <!-- State Colors -->
+    <color name="pressed_state">#1A000000</color>
+    <color name="selected_state">#0A000000</color>
+    <color name="disabled_state">#1F000000</color>
+
+    <!-- Ripple Effects -->
+    <color name="ripple_light">#33FFFFFF</color>
+    <color name="ripple_dark">#1A000000</color>
+
+    <!-- Border & Stroke Colors -->
+    <color name="login_border_primary">#2979FF</color>
+    <color name="login_border_secondary">#00B0FF</color>
+    <color name="login_border_light">#40C4FF</color>
+
+    <!-- Tab Colors -->
+    <color name="login_tab_active">#40C4FF</color>
+    <color name="login_tab_inactive">#64B5F6</color>
+    <color name="login_tab_indicator">#00B0FF</color>
+
+    <color name="tab_active">#00E5FF</color>
+    <color name="tab_inactive">#64B5F6</color>
+    <color name="tab_indicator">#7C4DFF</color>
+
+    <!-- Accent Blues -->
+    <color name="login_accent_primary">#2979FF</color>
+    <color name="login_accent_secondary">#00B0FF</color>
+    <color name="login_accent_light">#40C4FF</color>
+    <color name="login_accent_dark">#2962FF</color>
+
+    <!-- Glass Effects -->
+    <color name="glass_background">#CC1A2332</color>
+    <color name="glass_light">#20FFFFFF</color>
+    <color name="glass_dark">#10000000</color>
+    <color name="glass_effect_light">#15FFFFFF</color>
+    <color name="glass_effect_dark">#10000000</color>
+
+    <!-- Divider Colors -->
+    <color name="divider_dark">#1A000000</color>
+
+    <!-- Separator Colors -->
+    <color name="separator_light">#1AFFFFFF</color>
+    <color name="separator_dark">#1A000000</color>
+
+    <!-- Link & Interactive -->
+    <color name="link_hover">#80DEEA</color>
+    <color name="link_pressed">#4DD0E1</color>
+    <color name="interactive_feedback">#1AFFFFFF</color>
+
+    <!-- Focus Ring -->
+    <color name="focus_ring">#6640C4FF</color>
+
+    <!-- Accessibility -->
+    <color name="high_contrast_text">#000000</color>
+    <color name="high_contrast_background">#FFFFFF</color>
+
+    <!-- Modern UI Colors -->
+    <color name="modern_accent">#00E5FF</color>
+    <color name="modern_primary">#2979FF</color>
+    <color name="modern_secondary">#FF4081</color>
+    <color name="modern_surface">#1A2332</color>
+    <color name="modern_elevated">#233852</color>
+
+    <!-- Additional Colors -->
+    <color name="background_light">#F5F5F5</color>
+
+    <!-- ========== COMPATIBILITY ALIASES ========== -->
+    <!-- These ensure compatibility with existing styles -->
+    <color name="primary_blue">#1A2C42</color>
+    <color name="primary_light_blue">#233852</color>
+
+    <color name="bg_card">#1A2332</color>
+    <color name="bg_surface">#112240</color>
+    <color name="bg_elevated">#1A2C42</color>
+
+    <color name="text_disabled">#42A5F5</color>
+
+    <color name="input_border_default">#2A3D52</color>
+    <!-- Glass Card Colors -->
+    <color name="card_background_glass">#CC1A2332</color>
+    <color name="card_border_glass">#3340C4FF</color>
+
+    <!-- Accent Gradient Colors -->
+    <color name="accent_gradient_start">#00E5FF</color>
+    <color name="accent_gradient_middle">#18FFFF</color>
+    <color name="accent_gradient_end">#64FFDA</color>
+
+    <!-- Simple Login Colors -->
+    <color name="primary">#2D5BFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="input_background">#F5F5F5</color>
+    <color name="divider_light">#E0E0E0</color>
+</resources>
