@@ -22,4 +22,5 @@ An Android Office Management application built using **Kotlin** and **Firebase**
 ## 👨‍💻 Author
 **Abdul Rehman Bin Imran**  
 GitHub: https://github.com/abdulrehmang11
+
 Linkedin https://www.linkedin.com/in/abdulrehmang12/
