@@ -19,9 +19,6 @@ An Android Office Management application built using **Kotlin** and **Firebase**
 - Firebase Cloud Messaging (FCM)
 - Material Design
 
-## 📸 Screenshots
-
-
 ## 👨‍💻 Author
 **Abdul Rehman Bin Imran**  
 GitHub: https://github.com/abdulrehmang11
